@@ -1,0 +1,39 @@
+<!-- Jeremy Cross -->
+<!-- COMP322-03A -->
+<!-- This is a simple HTML page that will access calculator.js for simple arithmetic operations. -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Simple Calculator</title>
+        <style>
+            table {
+                width: 50%;
+                margin: 20px auto;
+            }
+            th, td {
+                border: 5px solid black;
+                padding: 10px;
+                text-align: center;
+            }
+            th {
+                background-color: orange;
+            }
+            .results-row {
+                background-color: white;
+            }
+            .ops-row {
+                background-color: orange;
+            }
+            .error {
+                color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 style="text-align: center;">Simple Calculator</h1>
+        <div id="results"></div>
+        <script src="calculator.js"></script>
+    </body>
+</html>
